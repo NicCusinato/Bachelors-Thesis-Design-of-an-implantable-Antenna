@@ -1,0 +1,224 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000012, day=000000000015, hour=000000000019, min=000000000044, sec=000000000003)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010673, lin=000000000198, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='measurement3ghz_slitArray'
+	VersionID=34625
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=34844
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='feed_length=\'9mm\' feed_wdth=\'1.2mm\' feed_z=\'3m\' H_cylinder=\'140mm\' inner_x=\'5.2000000000000002mm\' inner_xx=\'7.8000000000000016mm\' inner_z=\'3.5m\' inner_zz=\'0.0052500000000000003\' port_pos=\'-1m\' rad_cylinder=\'50mm\' slit_len=\'2.2000000000000002mm\' slit_lenn=\'2.2000000000000002m\' slit_lennn=\'0.10000000000000001m\' slit_pos=\'1.5mm\' slit_poss=\'2.5mm\' slit_posss=\'2mm\' slot_width=\'1mm\' sslitlen=\'0m\' subH=\'1.27mm\' subs_height=\'1.28mm\' subX=\'22mm\' subY=\'15.5mm\' upper_h=\'1mm\' Z_pos_slot=\'14mm\'', ID=34734)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=30222, Instance=\'SetupDefinition\', Solution=-1, VersionID=34625)'='SolutionBlock10'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=30223, VersionID=34625)'='SolutionBlock2'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=30224, VersionID=34625)'='SolutionBlock3'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=30645, VersionID=34625)'='SolutionBlock4'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=31186, VersionID=34625)'='SolutionBlock5'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=33833, VersionID=34625)'='SolutionBlock6'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=33849, VersionID=34625)'='SolutionBlock7'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=33871, VersionID=34625)'='SolutionBlock8'
+	'SolutionKey(SimSetup=30222, Instance=\'SolutionDefinition\', Solution=33889, VersionID=34625)'='SolutionBlock9'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=30223
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(7000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=30224
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(7000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=30645
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(4000000000, 4006666666.666667, 4013333333.333333, 4020000000, 4026666666.666667, 4033333333.333333, 4040000000, 4046666666.666667, 4053333333.333333, 4060000000, 4066666666.666667, 4073333333.333333, 4080000000, 4086666666.666667, 4093333333.333333, 4100000000, 4106666666.666667, 4113333333.333333, 4120000000, 4126666666.666667, 4133333333.333333, 4140000000, 4146666666.666667, 4153333333.333333, 4160000000, 4166666666.666667, 4173333333.333333, 4180000000, 4186666666.666667, 4193333333.333333, 4200000000, 4206666666.666667, 4213333333.333333, 4220000000, 4226666666.666667, 4233333333.333333, 4240000000, 4246666666.666667, 4253333333.333333, 4260000000, 4266666666.666667, 4273333333.333333, 4280000000, 4286666666.666667, 4293333333.333333, 4300000000, 4306666666.666667, 4313333333.333333, 4320000000, 4326666666.666667, 4333333333.333333, 4340000000, 4346666666.666667, 4353333333.333333, 4360000000, 4366666666.666667, 4373333333.333333, 4380000000, 4386666666.666667, 4393333333.333333, 4400000000, 4406666666.666667, 4413333333.333333, 4420000000, 4426666666.666667, 4433333333.333333, 4440000000, 4446666666.666667, 4453333333.333333, 4460000000, 4466666666.666667, 4473333333.333333, 4480000000, 4486666666.666667, 4493333333.333333, 4500000000, 4506666666.666667, 4513333333.333333, 4520000000, 4526666666.666667, 4533333333.333333, 4540000000, 4546666666.666667, 4553333333.333333, 4560000000, 4566666666.666667, 4573333333.333333, 4580000000, 4586666666.666667, 4593333333.333333, 4600000000, 4606666666.666667, 4613333333.333333, 4620000000, 4626666666.666667, 4633333333.333333, 4640000000, 4646666666.666667, 4653333333.333333, 4660000000, 4666666666.666667, 4673333333.333333, 4680000000, 4686666666.666667, 4693333333.333333, 4700000000, 4706666666.666667, 4713333333.333333, 4720000000, 4726666666.666667, 4733333333.333333, 4740000000, 4746666666.666667, 4753333333.333333, 4760000000, 4766666666.666667, 4773333333.333333, 4780000000, 4786666666.666667, 4793333333.333333, 4800000000, 4806666666.666667, 4813333333.333333, 4820000000, 4826666666.666667, 4833333333.333333, 4840000000, 4846666666.666667, 4853333333.333333, 4860000000, 4866666666.666667, 4873333333.333333, 4880000000, 4886666666.666667, 4893333333.333333, 4900000000, 4906666666.666667, 4913333333.333333, 4920000000, 4926666666.666667, 4933333333.333333, 4940000000, 4946666666.666667, 4953333333.333333, 4960000000, 4966666666.666667, 4973333333.333333, 4980000000, 4986666666.666667, 4993333333.333333, 5000000000, 5006666666.666667, 5013333333.333333, 5020000000, 5026666666.666667, 5033333333.333333, 5040000000, 5046666666.666667, 5053333333.333333, 5060000000, 5066666666.666667, 5073333333.333333, 5080000000, 5086666666.666667, 5093333333.333334, 5100000000, 5106666666.666667, 5113333333.333334, 5120000000, 5126666666.666667, 5133333333.333334, 5140000000, 5146666666.666667, 5153333333.333334, 5160000000, 5166666666.666667, 5173333333.333334, 5180000000, 5186666666.666667, 5193333333.333334, 5200000000, 5206666666.666667, 5213333333.333334, 5220000000, 5226666666.666667, 5233333333.333334, 5240000000, 5246666666.666667, 5253333333.333334, 5260000000, 5266666666.666667, 5273333333.333334, 5280000000, 5286666666.666667, 5293333333.333334, 5300000000, 5306666666.666667, 5313333333.333334, 5320000000, 5326666666.666667, 5333333333.333334, 5340000000, 5346666666.666667, 5353333333.333334, 5360000000, 5366666666.666667, 5373333333.333334, 5380000000, 5386666666.666667, 5393333333.333334, 5400000000, 5406666666.666667, 5413333333.333334, 5420000000, 5426666666.666667, 5433333333.333334, 5440000000, 5446666666.666667, 5453333333.333334, 5460000000, 5466666666.666667, 5473333333.333334, 5480000000, 5486666666.666667, 5493333333.333334, 5500000000, 5506666666.666667, 5513333333.333334, 5520000000, 5526666666.666667, 5533333333.333334, 5540000000, 5546666666.666667, 5553333333.333334, 5560000000, 5566666666.666667, 5573333333.333334, 5580000000, 5586666666.666667, 5593333333.333334, 5600000000, 5606666666.666667, 5613333333.333334, 5620000000, 5626666666.666667, 5633333333.333334, 5640000000, 5646666666.666667, 5653333333.333334, 5660000000, 5666666666.666667, 5673333333.333334, 5680000000, 5686666666.666667, 5693333333.333334, 5700000000, 5706666666.666667, 5713333333.333334, 5720000000, 5726666666.666667, 5733333333.333334, 5740000000, 5746666666.666667, 5753333333.333334, 5760000000, 5766666666.666667, 5773333333.333334, 5780000000, 5786666666.666667, 5793333333.333334, 5800000000, 5806666666.666667, 5813333333.333334, 5820000000, 5826666666.666667, 5833333333.333334, 5840000000, 5846666666.666667, 5853333333.333334, 5860000000, 5866666666.666667, 5873333333.333334, 5880000000, 5886666666.666667, 5893333333.333334, 5900000000, 5906666666.666667, 5913333333.333334, 5920000000, 5926666666.666667, 5933333333.333334, 5940000000, 5946666666.666667, 5953333333.333334, 5960000000, 5966666666.666667, 5973333333.333334, 5980000000, 5986666666.666667, 5993333333.333334, 6000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SolutionName='Discrete5'
+	SolutionID=31186
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5740000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock5'
+$begin 'SolutionBlock6'
+	SolutionName='Discrete2'
+	SolutionID=33833
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5440000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=3
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock6'
+$begin 'SolutionBlock7'
+	SolutionName='Discrete4'
+	SolutionID=33849
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(4260000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=4
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock7'
+$begin 'SolutionBlock8'
+	SolutionName='Discrete3'
+	SolutionID=33871
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(4790000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=5
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	SolutionName='Discrete1'
+	SolutionID=33889
+	V=34625
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5830000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=6
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock9'
+$begin 'SolutionBlock10'
+	SimSetupID=30222
+	SimSetupName='Auto1'
+	VersionID=34625
+	IsImported=false
+	IsTable=false
+	SolveSetupID=4
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock10'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1368, lin=23, lvl=0)
+		SolutionBlock2(pos=2460, lin=35, lvl=0)
+		SolutionBlock3(pos=2822, lin=53, lvl=0)
+		SolutionBlock4(pos=3184, lin=71, lvl=0)
+		SolutionBlock5(pos=8538, lin=89, lvl=0)
+		SolutionBlock6(pos=8896, lin=107, lvl=0)
+		SolutionBlock7(pos=9254, lin=125, lvl=0)
+		SolutionBlock8(pos=9612, lin=143, lvl=0)
+		SolutionBlock9(pos=9970, lin=161, lvl=0)
+		SolutionBlock10(pos=10328, lin=179, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10673, lin=198, lvl=0)
+	$end '$index$'
+$end '$index$'

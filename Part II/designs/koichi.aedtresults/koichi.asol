@@ -1,0 +1,144 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000012, day=000000000015, hour=000000000019, min=000000000041, sec=000000000051)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005371, lin=000000000122, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='koichi'
+	VersionID=1093
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1235
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='coax_inner_rad=\'0.14499999999999999mm\' feedLength=\'140mm\' In_dia_out_cond=\'0.93999999999999995mm\' L_catheter=\'140mm\' L_ls=\'10mm\' L_ts=\'20mm\' Out_dia_out_cond=\'1.1899999999999999mm\' subH=\'0.1575cm\' subX=\'2.7000000000000002cm\' subY=\'2.2999999999999998cm\' t_cath=\'0.29999999999999999mm\' W_sl=\'1mm\'', ID=1158)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=20, Instance=\'SetupDefinition\', Solution=-1, VersionID=1093)'='SolutionBlock6'
+	'SolutionKey(SimSetup=20, Instance=\'SolutionDefinition\', Solution=21, VersionID=1093)'='SolutionBlock2'
+	'SolutionKey(SimSetup=20, Instance=\'SolutionDefinition\', Solution=22, VersionID=1093)'='SolutionBlock3'
+	'SolutionKey(SimSetup=20, Instance=\'SolutionDefinition\', Solution=26, VersionID=1093)'='SolutionBlock4'
+	'SolutionKey(SimSetup=20, Instance=\'SolutionDefinition\', Solution=28, VersionID=1093)'='SolutionBlock5'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=21
+	V=1093
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=22
+	V=1093
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='FF_Sweep'
+	SolutionID=26
+	V=1093
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2450000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SolutionName='SParam_Sweep'
+	SolutionID=28
+	V=1093
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000, 1040404040.40404, 1080808080.808081, 1121212121.212121, 1161616161.616162, 1202020202.020202, 1242424242.424242, 1282828282.828283, 1323232323.232323, 1363636363.636364, 1404040404.040404, 1444444444.444444, 1484848484.848485, 1525252525.252525, 1565656565.656566, 1606060606.060606, 1646464646.464646, 1686868686.868687, 1727272727.272727, 1767676767.676768, 1808080808.080808, 1848484848.484848, 1888888888.888889, 1929292929.292929, 1969696969.69697, 2010101010.10101, 2050505050.505051, 2090909090.909091, 2131313131.313131, 2171717171.717172, 2212121212.121212, 2252525252.525252, 2292929292.929293, 2333333333.333333, 2373737373.737374, 2414141414.141414, 2454545454.545455, 2494949494.949495, 2535353535.353536, 2575757575.757576, 2616161616.161616, 2656565656.565657, 2696969696.969697, 2737373737.373737, 2777777777.777778, 2818181818.181818, 2858585858.585858, 2898989898.989899, 2939393939.393939, 2979797979.79798, 3020202020.20202, 3060606060.606061, 3101010101.010101, 3141414141.414142, 3181818181.818182, 3222222222.222222, 3262626262.626263, 3303030303.030303, 3343434343.434343, 3383838383.838384, 3424242424.242424, 3464646464.646465, 3505050505.050505, 3545454545.454545, 3585858585.858586, 3626262626.262626, 3666666666.666667, 3707070707.070707, 3747474747.474748, 3787878787.878788, 3828282828.282828, 3868686868.686869, 3909090909.090909, 3949494949.494949, 3989898989.89899, 4030303030.30303, 4070707070.707071, 4111111111.111111, 4151515151.515152, 4191919191.919192, 4232323232.323232, 4272727272.727273, 4313131313.131313, 4353535353.535354, 4393939393.939394, 4434343434.343434, 4474747474.747475, 4515151515.151515, 4555555555.555555, 4595959595.959597, 4636363636.363636, 4676767676.767677, 4717171717.171717, 4757575757.575758, 4797979797.979797, 4838383838.383839, 4878787878.787879, 4919191919.191919, 4959595959.59596, 5000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock5'
+$begin 'SolutionBlock6'
+	SimSetupID=20
+	SimSetupName='ATK_Solution'
+	VersionID=1093
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1130, lin=23, lvl=0)
+		SolutionBlock2(pos=1733, lin=31, lvl=0)
+		SolutionBlock3(pos=2091, lin=49, lvl=0)
+		SolutionBlock4(pos=2449, lin=67, lvl=0)
+		SolutionBlock5(pos=2802, lin=85, lvl=0)
+		SolutionBlock6(pos=5025, lin=103, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5371, lin=122, lvl=0)
+	$end '$index$'
+$end '$index$'

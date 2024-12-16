@@ -1,0 +1,9 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	subH='50mm'
+	subX='10mm'
+	subY='1mm'
+	feedlength='20mm'
+$end 'VariableValues'

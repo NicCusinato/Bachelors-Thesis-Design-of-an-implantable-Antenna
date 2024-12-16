@@ -1,0 +1,10 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	subH='1mm'
+	subx='4cm'
+	suby='1cm'
+	width_TL='3.75mm'
+	width_GAP='width_TL/2+0.15mm'
+$end 'VariableValues'
